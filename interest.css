@@ -1,0 +1,56 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: white;
+}
+
+#main {
+  height: 85%;
+  display: grid;
+  grid-template-columns: 150px auto;
+  column-gap: 20px;
+  margin: 10px;
+}
+
+nav {
+  background-image: linear-gradient(lightsalmon, orangered, lightsalmon);
+  grid-row: span 5;
+  display: flex;
+  justify-content: center;
+  font-size: 100%;
+  font-family: Avenir;
+  padding: 10px;
+  color: white;
+}
+
+progress {
+  width:150px;
+}
+
+header,
+footer {
+  background-color: lightsalmon;
+  color: white;
+  font-family: Luminari, fantasy;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-shadow: 3px 3px 3px orangered;
+  font-size: 200%;
+  padding: 10px;
+  transition: scale 3s;
+}
+
+header:hover {
+  scale: 3;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  font-size: 100%;
+  font-family: Avenir;
+  padding: 10px;
